@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Program5;
+package Task1;
 
 import java.util.Scanner;
 
 /**
  * @author josedr
  */
-public class program5 {
+public class Program5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Program1;
+package Task1;
 
 import java.util.Scanner;
 
 /**
  * @author josedr
  */
-public class program1 {
+public class Program1 {
     Scanner input = new Scanner(System.in);
     int num1, num2;
 
     public static void main(String[] args) {
-        new program1().subtractingMenu();
+        new Program1().subtractingMenu();
     }
 
     public void subtractingMenu() {

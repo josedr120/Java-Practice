@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Program6;
+package Task1;
 
 import java.util.Scanner;
 
 /**
  * @author josedr
  */
-public class program6 {
+public class Program6 {
     Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        new program6().nameList();
+        new Program6().nameList();
     }
 
     public void nameList() {
@@ -30,7 +30,7 @@ public class program6 {
 
         switch (choice) {
             case "y":
-                new program6().nameList();
+                new Program6().nameList();
                 break;
 
             case "n":

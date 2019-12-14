@@ -3,27 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Program2;
+package Task1;
 
 import java.util.Scanner;
 
 /**
  * @author josedr
  */
-public class program2 {
+public class Program3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double a, b;
+        int age;
 
-        System.out.print("\nEnter value A: ");
-        a = input.nextDouble();
+        System.out.print("Enter your Age: ");
+        age = input.nextInt();
 
-        System.out.print("\nEnter value B: ");
-        b = input.nextDouble();
-
-        System.out.print("\nValue A is: " + a);
-
-        System.out.print("\nValue B is: " + b);
+        if (age >= 18) {
+            System.out.print("You are eligable to vote :)");
+        } else {
+            System.out.print("You are not eligable to vote :(");
+        }
     }
 }
