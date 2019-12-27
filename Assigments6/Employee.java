@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Assignments6;
+package Assigments6;
 
 /**
  * @author josedr
@@ -23,8 +23,8 @@ public class Employee {
         this.salary = salary;
     }
 
-    public int compareTo(Employee o) {
-        return this.exp = o.exp;
+    public String compareTo(Employee o) {
+        return this.name = o.name;
     }
 
 
@@ -32,6 +32,4 @@ public class Employee {
     public String toString() {
         return "Employee : " + id + " - " + name + " - " + " - " + age + "exp" + "salary" + "\n";
     }
-
-
 }

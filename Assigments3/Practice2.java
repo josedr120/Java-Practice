@@ -6,7 +6,7 @@ public class Practice2 {
         String string2 = "JAVa";
 
 
-        if (string1 == string2) {
+        if (string1 != string2) {
             System.out.println("Not Equal");
         } else {
             System.out.println("Equal");

@@ -15,7 +15,7 @@ public class Practice1 implements Runnable {
         try {
             Runtime.getRuntime().exec("code");
             Thread.sleep(1000);
-            Runtime.getRuntime().exec("killall code");
+            Runtime.getRuntime().exec("kill code");
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
