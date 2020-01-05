@@ -1,19 +1,18 @@
-package Proyect1;
+package Proyect;
 
-import java.sql.SQLException;
-import java.util.*;
+import java.util.Scanner;
 
-public class UserMain {
+public class Proyect1 {
 
-    public static void main(String[] args) throws SQLException {
-        new UserMain().Menu();
+    public static void main(String[] args) {
+        new Proyect1().Menu();
     }
 
     Scanner in = new Scanner(System.in);
 
     int value;
 
-    public void Menu() throws SQLException {
+    public void Menu() {
         System.out.println("Choose the option below");
         System.out.println("***************************");
         System.out.println("1 -> Insert");
@@ -22,7 +21,8 @@ public class UserMain {
         System.out.println("4 -> View");
         System.out.println("5 -> Exit");
 
-        System.out.print("Enter your option value: "); value = in.nextInt();
+        System.out.print("Enter your option value: ");
+        value = in.nextInt();
 
         int selection = value;
 

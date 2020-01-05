@@ -76,6 +76,7 @@ class Books {
         Drama,
         RealLifeShit
     }
+
 }
 
 class Customers extends Books implements Discounts {
