@@ -24,9 +24,8 @@ public class Proyect1 {
         System.out.print("Enter your option value: ");
         value = in.nextInt();
 
-        int selection = value;
 
-        switch (selection) {
+        switch (value) {
             case 1:
                 new UserOptions().insertOption();
                 break;

@@ -32,19 +32,7 @@ public class UserOptions {
         setInsert_name(in.next());
 
 
-//        System.out.println(getInsert_id());
-//        System.out.println(getInsert_name());
-
-        new DBConnection();
-
+        new DBConnection(getInsert_id(), getInsert_name());
     }
 
-//        public void AddUser(@NotNull Connection myConnection) throws SQLException {
-//
-//        PreparedStatement getInsertDB = myConnection.prepareStatement("INSERT INTO UserInfo (UserID, UserName) VALUES (?, ?)");
-//        getInsertDB.setInt(1, getInsert_id());
-//        getInsertDB.setString(2, getInsert_name());
-//
-//        getInsertDB.executeUpdate();
-//    }
 }
